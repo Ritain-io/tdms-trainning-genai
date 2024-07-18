@@ -1,0 +1,8 @@
+- first_name: test1
+  last_name: test1
+  email: tdms@tdms.com
+  password: 123123123
+- first_name: test2
+  last_name: test2
+  email: test@tdms.com
+  password: 123123123

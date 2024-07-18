@@ -1,0 +1,12 @@
+- service_identifier: Service name 1
+  notes: "Notes 1"
+  state: "State 1"
+  reserved: true
+  customer_id: 1
+  environment_id: 1
+- service_identifier: Service name 2
+  notes: "Notes 2"
+  state: "State 2"
+  reserved: false
+  customer_id: 2
+  environment_id: 2

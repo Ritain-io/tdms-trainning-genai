@@ -1,0 +1,15 @@
+- full_name: Test Test 1
+  document_value: 11111
+  document_type: "type 1"
+  customer_type: "['type 1']"
+  environment_id: 1
+- full_name: Test Test 2
+  document_value: 3333
+  document_type: "type 1"
+  customer_type: "['type 1']"
+  environment_id: 2
+- full_name: Test Test 5
+  document_value: 3333423
+  document_type: "type 1"
+  customer_type: "['type 1']"
+  environment_id: 2

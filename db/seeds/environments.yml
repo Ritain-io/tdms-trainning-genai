@@ -1,0 +1,4 @@
+- name: DEV
+  url: 'http://192.168.56.1:8080/cwf/login'
+- name: PROD
+  url: 'http://192.168.19.15:7002/cwf/login'
