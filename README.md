@@ -1,18 +1,29 @@
 # Tdms-Trainning-genai
 # Teste
 
-# Arquitetura do projeto
+# The system consists of the following components:
 
-Public GitHub link to access the project structure: https://github.com/Ritain-io/tdms-trainning-genai
-
-Beginning with the migration, we can find a file that creates the customers table. The link to access the code for this file is: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/db/migrate/20180924174218_create_customers.rb
-
-After creating the customers table, the model is called to communicate with it. Therefore, the customers.rb file is used, and here is the link to access it: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/controllers/api/v1/customers_controller.rb
-
-Following this communication, the customers controller is called. The code can be found at this link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/controllers/api/v1/customers_controller.rb
-
-The controller, in turn, calls its services, and the file containing the code is located at: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/services/api/customers.rb
-
-Based on the output provided in the controller, it then passes through the customer serializer. The serializer's code can be found at this link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/serializers/customer_serializer.rb
-
-Finally, we have the customer policy, which validates whether there are permissions to access the controller. The code is available at the following link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/policies/customer_policy.rb
+1. Database Migration
+   File: 20180924174218_create_customers.rb
+   Location: db/migrate/20180924174218_create_customers.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/db/migrate/20180924174218_create_customers.rb
+2. Model
+   File: customers.rb
+   Location: app/models/customers.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/models/customers.rb
+3. Controller
+   File: customers_controller.rb
+   Location: app/controllers/api/v1/customers_controller.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/controllers/api/v1/customers_controller.rb
+4. Service
+   File: customers.rb
+   Location: app/services/api/customers.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/services/api/customers.rb
+5. Serializer
+   File: customer_serializer.rb
+   Location: app/serializers/customer_serializer.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/serializers/customer_serializer.rb
+6. Policy
+   File: customer_policy.rb
+   Location: app/policies/customer_policy.rb
+   GitHub Link: https://github.com/Ritain-io/tdms-trainning-genai/blob/main/app/policies/customer_policy.rb
